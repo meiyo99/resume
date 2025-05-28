@@ -1,0 +1,256 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Mayuresh Naidu} \\ \vspace{1pt}
+    Toronto, ON M4R 0A4 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 437-733-3495 ~ \href{mailto:mayureshnaiduu@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{mayureshnaiduu@gmail.com}} ~ 
+    \href{https://linkedin.com/in/mayuresh-naidu-233802204/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/mayuresh-naidu}}  ~
+    \href{https://github.com/}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/meiyo99}}
+    \vspace{-8pt}
+\end{center}
+
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item\small Web Development
+                \item Software Methodology
+                \item Data Structures
+                \item Database Systems
+                \item Front-End Frameworks
+                \item RESTful API 
+                \item Systems Programming
+                \item UI/UX Design 
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Take5 Digital}{June 2024 -- August 2024}
+      {UX Developer Intern}{London, ON}
+      \resumeItemListStart
+        \resumeItem{Contributed to the redesign of a client-facing website, focusing on improving layout structure, applying modern design principles, and enhancing user experience.}
+        \resumeItem{Participated in agile workflows, including weekly standups and design review meetings, collaborating with cross-functional team members to align design strategies with user needs.}
+        \resumeItem{Contributed creative input to design decisions, refining both aesthetic and functional elements based on feedback and testing.}
+        \resumeItem{Gained hands-on experience working on a live web project, strengthening front-end development, UX design, and collaborative communication skills.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {GeBBS Healthcare}{Sep 2022 -- Sep 2023}
+      {Software Engineer}{Mumbai, India}
+      \resumeItemListStart
+        \resumeItem{Collaborated with cross-functional teams to align design goals, conduct research, conduct design reviews, create prototypes, and conduct user testing sessions.}
+        \resumeItem{Used finalized designs to develop responsive websites using front-end frameworks such as React.js, ensuring cross-browser compatibility.}
+        \resumeItem{Maintained clear documentation, communicated design rationale, conducted iterative testing, and collaborated within Agile frameworks to resolve design-development issues and ensure continuous improvement.}
+      \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Slot Machine} $|$ \emph{Python}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a text-based slot machine game using Python, incorporating betting mechanics, balance tracking, and randomized symbol generation on a 3x3 grid.}
+            \resumeItem{Implemented logic to calculate winnings based on predefined symbol frequencies and payout values, enhancing understanding of probability and control flow.}
+            \resumeItem{Designed a user-driven game loop with input validation and dynamic feedback, improving console-based interaction and user experience.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{PlantPal Plant Care} $|$ \emph{HTML, CSS, JQuery}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a plant management web application enabling users to add, delete, and customize plant entries with species-specific details and care information.}
+            \resumeItem{Implemented search functionality and interactive task tracking using a visual calendar to display and mark watering reminders.}
+            \resumeItem{Utilized browser storage (local/session) to ensure data persistence and enhance user experience without requiring a backend.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{BrickMMO Applications} $|$ \emph{PHP, JavaScript}}{}
+          \resumeItemListStart
+            \resumeItem{Proposed and designed advanced search, filter, and sort functionalities to enhance discoverability and usability of GitHub repositories.}
+            \resumeItem{Conceptualized contributor insights and activity visualizations to improve transparency and engagement within the developer community.}
+            \resumeItem{Focused on transforming a static listing into an interactive, user-centric platform through feature ideation grounded in real-world use cases.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+
+  \resumeSubheading
+      {Humber Polytechnic}{Jan 2025 -- Dec 2025}
+      {Post-Graduate Certificate in Web Development}{Etobicoke, ON}
+
+  \resumeSubheading
+      {Conestoga College}{Jan 2024 -- Dec 2024}
+      {Post-Graduate Certificate in Web Development}{Etobicoke, ON}
+      
+    \resumeSubheading
+      {MIT ADT University}{2017 -- 2021}
+      {Bachelor of Technology in Computer Science}{Pune, India}
+  \resumeSubHeadingListEnd
+
+  
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages:} Python, PHP, C\#, HTML/CSS, JavaScript, SQL \\
+     \textbf{Developer Tools}{: VS Code, Git, Docker, Figma, Framer} \\
+     \textbf{Technologies/Frameworks}{: .Net, React, Express, Node.js, GitHub, MongoDB} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Volunteering / Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Collision Conference}{June 2024}{Volunteer}{Toronto}
+            \resumeItemListStart
+                \resumeItem{Supported logistics for a tech event hosting 40,000+ attendees, gaining experience in high-pressure technical environments.}
+                \resumeItem{Triaged support requests efficiently while maintaining a high-quality customer experience.}
+                \resumeItem{Coordinated across teams and provided on-site troubleshooting and support, enhancing adaptability and communication.}
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+
+\end{document}
